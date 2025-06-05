@@ -45,7 +45,7 @@ public class ExampleRAG {
 
     public static void main(String[] args) {
 
-        // Let's create an assistant that will know about our document
+        // Create an assistant that will know about our document
         AiAssistant assistant = createAssistant("documents1/policy.txt");
 
         startConversationWith(assistant);
